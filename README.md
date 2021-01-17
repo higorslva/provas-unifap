@@ -2,8 +2,10 @@
 
 1) Você precisa ter o ADB e Fastboot no seu PC:
   1.1) No Windows, baixe-os aqui: https://droidfilehost.com/download/download-adb-fastboot-android-sdk-platform-tools-for-windows/
-        1.1.1) Baixe também os drivers da fabricante do seu celular (Apenas Windows)
-        1.1.2) Configure o adb e fastboot para seu path. Instruções aqui:
+        
+   1.1.1) Baixe também os drivers da fabricante do seu celular (Apenas Windows)
+   
+   1.1.2) Configure o adb e fastboot para seu path. Instruções aqui:
   
   1.2) No MacOS, baixe-os aqui: https://droidfilehost.com/download/download-adb-fastboot-android-sdk-platform-tools-for-mac/
   
