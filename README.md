@@ -1,24 +1,20 @@
------Instruções-----
+# Instruções
 
-* 1) Você precisa ter o ADB e Fastboot no seu PC:
-*  1.1) No Windows, baixe-os aqui: https://droidfilehost.com/download/download-adb-fastboot-android-sdk-platform-tools-for-windows/
-        
+1) Você precisa ter o ADB e Fastboot no seu PC:
+  1.1) No Windows, baixe-os aqui: https://droidfilehost.com/download/download-adb-fastboot-android-sdk-platform-tools-for-windows/
         1.1.1) Baixe também os drivers da fabricante do seu celular (Apenas Windows)
-        
         1.1.2) Configure o adb e fastboot para seu path. Instruções aqui:
-    
-    1.2) No MacOS, baixe-os aqui: https://droidfilehost.com/download/download-adb-fastboot-android-sdk-platform-tools-for-mac/
-    
-    1.3) Em Linux baseado em Debian (Ubuntu, Linux Mint, Zorin OS...), instale com um terminal:
-    
-        ``` $ sudo adb install adb fastboot ```
   
-    1.4) Em Linux baseado em ArchLinux, instale com um terminal:
-        
-        ```
+  1.2) No MacOS, baixe-os aqui: https://droidfilehost.com/download/download-adb-fastboot-android-sdk-platform-tools-for-mac/
+  
+  1.3) Em Linux baseado em Debian (Ubuntu, Linux Mint, Zorin OS...), instale com um terminal:
+    
+         $ sudo adb install adb fastboot
+  
+  1.4) Em Linux baseado em ArchLinux, instale com um terminal:
+  
         $ sudo pacman -S adb fastboot
-        ```
-   
+        
    1.5) Em Linux baseado em Fedora, instale com um terminal:
     
         $ sudo dnf install android-tools
@@ -37,8 +33,8 @@
     3.2) No Linux e MacOS, dê o comando
     
         $ fastboot flash recovery ~/Downloads/twrp-3.5.0_9-0-cedric.img
-        
-        ou
+      
+      ou
         
         $ cd ~/Downloads
         
